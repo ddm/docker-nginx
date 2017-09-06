@@ -1,6 +1,6 @@
-FROM alpine:3.5
+FROM arm32v6/alpine:3.6
 
-LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
+LABEL maintainer="Dimitri del Marmol <ddm@0x01.be>"
 
 ENV NGINX_VERSION 1.13.5
 
